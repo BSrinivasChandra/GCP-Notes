@@ -12,7 +12,7 @@ These repositories can be of three types or modes:
 - Remote - Stores artifacts on external sources as Docker Hub, PyPI, etc.
 - Virtual - 
 
-#### **Mutable vs Immutable Tags**
+### **Mutable vs Immutable Tags**
 
 A tag is a label for an image build. By default a tag can only refer to one version of image build. It can be enforced otherwise using mutable tags.
 
