@@ -3,7 +3,6 @@ These methods transfers data without the need of downloading.
 I have come across these data transfer methods in gcp:
 - Storage Transfer Service(GCP's Service)
 - Python Script using storage client
-
 ### **Storage Transfer Service**
 There are many jobs options within STS, I have worked with the following.
 - **GCS to GCS**
@@ -19,6 +18,7 @@ There are many jobs options within STS, I have worked with the following.
 	```
 	- Once created and stored in a bucket, provide gsurl of tsv file to the job.
 
+STS supports cross-cloud transfers. Transfers can be automated by scheduled triggers, overwrite & delete.
 ### **Python Script in CloudShell**
 - Storage client & copy_blob() is used. A strict 30-second time limit is set.
 - Generally not suitable for large data transfers with cross region/storage class transfers.
