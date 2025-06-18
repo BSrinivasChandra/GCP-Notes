@@ -1,0 +1,1 @@
+- To make any bucket publicly accessible, add `allUsers` principle with `Storage bucket viewer` & `Storage object viewer` roles.
