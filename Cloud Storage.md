@@ -12,15 +12,15 @@
 ### **Bucket Location**
 Bucket location determines replication, redundancy, latency & transfer cost of data.
 
-1. Region: A specific geographic place, such as asia-south1(Mumbai).
+1. **Region**: A specific geographic place, such as asia-south1(Mumbai).
 	- Cross Zone Replication: Bucket is stored within a region replicated through out all availability zones. 
 	- No outbound/egress charges when reading data within the same region.
 
-2. Dual Region: A specific pair of distant regions within a continent.
+2. **Dual Region**: A specific pair of distant regions within a continent.
 	- Cross Region Replication: Bucket is replicated through out all the zones in these two regions
 	- No outbound/egress charges when data is access within either of these regions.
 
-3. Multi Region: A geographic area containing two or more regions.
+3. **Multi Region**: A geographic area containing two or more regions.
 	- Bucket is replicated through out all the regions in a continent.
 	- Outbound/Egress charges are always applied. Data access from any region is considered as inter-region transfer.
 
